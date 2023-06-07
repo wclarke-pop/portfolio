@@ -1,0 +1,33 @@
+html {scroll-behavior: smooth;}
+:root {
+    --light: #EBF2FA;
+    --light-darker:#d7e5f5;
+    --dark: ;
+    --secondary: #07393C;
+    --primary: #2C666E;
+    --primary-hover: #285E65;
+}
+
+.nav-logo {
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+
+nav.nav {
+    background-color: var(--primary);
+}
+.nav-items a.item:not(.active):hover {
+    background-color: var(--primary-hover);
+    color: var(--light);
+}
+
+.nav-items a.item:not(.active) {
+    color: var(--light-darker);
+
+}
+
+.nav-items a.item.active {
+    background-color: var(--primary-hover);
+    color: var(--light);
+}
