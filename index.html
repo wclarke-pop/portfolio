@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home | William Clarke - Backend website developer.</title>
 
+        <link href="dist/css/main.css" rel="stylesheet">
         <script src="//unpkg.com/alpinejs" defer></script>
         <script src="https://cdn.tailwindcss.com"></script>
         <script>
@@ -24,7 +25,7 @@
     </head>
     <body>
         <!-- Nav -->
-        <nav class="bg-[#2C666E]">
+        <nav class="nav">
             <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
               <div class="relative flex h-16 items-center justify-between">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -53,13 +54,13 @@
                   <div class="flex flex-shrink-0 items-center">
                     <h2 class="nav-logo block w-auto text-2xl text-indigo-600 leading-6 font-bold tracking-wide">WC</h2>
                   </div>
-                  <div class="hidden sm:ml-6 sm:block">
+                  <div class="hidden sm:ml-6 sm:block nav-items">
                     <div class="flex space-x-4">
                       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                      <a href="#" class="bg-[#07393C] text-light rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
-                      <a href="#" class="text-light/50 hover:bg-[#07393C] hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a>
-                      <a href="#" class="text-light/50 hover:bg-[#07393C] hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
-                      <a href="#" class="text-light/50 hover:bg-[#07393C] hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
+                      <a href="#" class="item active rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
+                      <a href="#" class="item rounded-md px-3 py-2 text-sm font-medium">Team</a>
+                      <a href="#" class="item rounded-md px-3 py-2 text-sm font-medium">Projects</a>
+                      <a href="#" class="item rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
                     </div>
                   </div>
                 </div>
