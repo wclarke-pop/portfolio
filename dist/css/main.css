@@ -6,6 +6,7 @@ html {scroll-behavior: smooth;}
     --secondary: #07393C;
     --primary: #2C666E;
     --primary-hover: #285E65;
+    --tertiary: #F7717D;
 }
 
 .nav-logo {
